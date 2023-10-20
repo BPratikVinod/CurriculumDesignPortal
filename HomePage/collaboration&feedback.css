@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+
+body {
+    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bu.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-color: bisque;
+}
+
+ul {
+    float: center;
+    list-style-type: none;
+    margin-top: 1px;
+    min-width: 400px;
+    margin-right: 60px;
+    min-height: 40px;
+    font-size: 16px;
+}
+
+ul li {
+    display: inline-block;
+    display: inline-flex;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 3px 53px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    height: 30px;
+    color: black;
+}
+
+.menu {
+    background-color: orangered;
+    text-align: center;
+    height: 38px;
+    padding: 5px;
+}
+
+ul li.active a {
+    background-color: white;
+    height: 30px;
+    color: #000;
+}
+
+.logo {
+    background-color: bisque;
+    padding: 10px;
+}
+
+.sub-menu {
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu ul {
+    position: absolute;
+}
+
+.main ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 80px;
+    margin-left: -85px;
+
+}
+
+.main ul li:hover .sub-menu ul {
+    display: block;
+    /* margin: ; */
+}
+
+/* Your existing CSS for styling the dropdown menu */
+.sub-menu {
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+/* ... rest of your CSS ... */
+
+
+/* Updated styles for the chat UI */
+
+/* Updated styles for PDF messages */
+.pdf-thumbnail {
+    max-width: 100px;
+    /* Adjust the width as needed */
+    height: auto;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* Message content styles */
+.message-content {
+    display: flex;
+    align-items: center;
+}
+
+/* Adjust spacing for better alignment */
+.message.user1 .message-content {
+    justify-content: flex-end;
+}
+
+/* Styling for PDF message link */
+.message-content a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Adjust link hover color */
+.message-content a:hover {
+    text-decoration: underline;
+}
+
+
+/* Header styles */
+.chat-header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #01070c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.chat-room {
+    background-color: orange;
+    color: black;
+    padding: 2px;
+    display: inline;
+    border-radius: 5px;
+}
+
+.chat-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.chat-header h2 {
+    font-size: 24px;
+}
+
+/* Chat messages styles */
+.chat-messages {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    min-height: 300px;
+    max-height: 100%;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message.user1 {
+    background-color: lightblue;
+
+    color: black;
+}
+
+.message.user2 {
+    background-color: bisque;
+    color: black;
+    border: solid white 1px;
+}
+
+.message.user3 {
+    background-color: lightblue;
+    color: black;
+}
+
+/* Input styles */
+/* .chat-input {
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+} */
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .chat-container {
+        max-width: 95%;
+    }
+
+    .chat-messages {
+        max-height: 250px;
+    }
+}
+
+/* CSS for the chat input section */
+.chat-input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+#message-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+#send-button {
+    padding: 10px 20px;
+    background-color: #09131e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}

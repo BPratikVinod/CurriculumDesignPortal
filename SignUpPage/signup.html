@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<div class="logo">
+    <img src="logo_2.png" alt="Logo">
+</div>
+
+<body>
+    <div class="container">
+        <h2>User Details</h2>
+        <h1 style="color: white; text-align: center; margin-top: 0%;">Sign Up</h1>
+        <form class="signup-form" action="signup_process.php" method="post">
+            <input class="line-input" type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+            <input class="line-input" type="text" id="email" name="email" placeholder="Email" required>
+            <input class="line-input" type="password" id="password" name="password" placeholder="password" required>
+            <input class="line-input" type="tel" id="contact" name="contact" placeholder="Contact" required>
+            <input class="line-input" type="date" id="dob" name="dob" placeholder="Date of Birth" required>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <input class="line-input" type="text" id="address" name="address" placeholder="Address" required>
+            <input class="line-input" type="text" id="aadharNumber" name="aadharNumber" placeholder="Aadhar Number"
+                required>
+            <input class="line-input" type="text" id="education" name="education" placeholder="Education" required>
+            <input class="line-input" type="text" id="currentPosition" name="currentPosition"
+                placeholder="Current Position" required>
+
+            <div class="remember-forgot">
+                <label style="color: whitesmoke;"><input type="checkbox">I agree to the terms and conditions</label>
+            </div>
+            <br>
+            <button type="submit">Sign Up</button>
+            <div class="login-register">
+                <p>Already have an account? <a href="/LoginPage/login.html" class="login-link">Log In</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

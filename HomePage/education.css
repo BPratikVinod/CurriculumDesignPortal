@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-family: Century; */
+    font-family: Georgia, "Lucida Bright", "DejaVu Serif", Constantia, serif;
+}
+
+body {
+    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bu.jpg); */
+    background-position: center;
+    background-size: cover;
+}
+
+ul {
+    float: center;
+    list-style-type: none;
+    margin-top: 1px;
+    min-width: 400px;
+    margin-right: 60px;
+    min-height: 40px;
+    font-size: 16px;
+}
+
+ul li {
+    display: inline-block;
+    display: inline-flex;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 3px 53px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    height: 30px;
+    color: black;
+}
+
+.menu {
+    background-color: orangered;
+    text-align: center;
+    height: 38px;
+    padding: 5px;
+}
+
+ul li.active a {
+    background-color: white;
+    height: 30px;
+    color: #000;
+}
+
+.logo {
+    background-color: bisque;
+    padding: 10px;
+}
+
+.sub-menu {
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu ul {
+    position: absolute;
+}
+
+.main ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 80px;
+    margin-left: -85px;
+
+}
+
+.main ul li:hover .sub-menu ul {
+    display: block;
+    /* margin: ; */
+}
+
+/* Your existing CSS for styling the dropdown menu */
+.sub-menu {
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+/* ... rest of your CSS ... */
+
+
+.initial-text {
+    font-weight: 500;
+    font-size: larger;
+}
+
+.section-1{
+    padding: 30px;
+    margin: auto;
+    text-align: justify;
+}
+
+/* body p {
+    text-indent: 50px;
+} */

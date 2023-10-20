@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics</title>
+    <link rel="stylesheet" href="analytics.css">
+</head>
+
+<body>
+    <header>
+        <div class="main">
+            <dir class="logo">
+                <img src="/HomePage/logo_new.png">
+            </dir>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="/HomePage/index.html">Home</a></li>
+                    <li><a href="/HomePage/about.html">About Us</a></li>
+                    <li><a href="/HomePage/education.html">Education</a></li>
+                    <li><a href="/HomePage/collaboration&feedback.html">Collaboration & Feedback</a></li>
+                    <li><a href="#">Notifications</a></li>
+                    <li class="active"><a href="/HomePage/analytics.html">Analytics</a></li>
+                    <li><a href="/LoginPage/login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="filters">
+            <label for="courseSelect">Select Course:</label>
+            <select id="courseSelect">
+                <option value="course1">Introduction to programming</option>
+                <option value="course2"> Data Structures and Algorithms</option>
+                <option value="course3">Database Management Systems</option>
+                <option value="course4">High School English Literature</option>
+                <!-- Add more course options as needed -->
+            </select>
+            <label for="dateRange">Select Date Range:</label>
+            <input type="date" id="dateRange">
+            <button id="applyFilters">Apply Filters</button>
+        </div>
+        <div id="analytics">
+            <div id="performanceChart">
+                <img src="/HomePage/performanceChart.png" alt="performanceChart" width="550px" height="400px">
+            </div>
+            <div id="completionRateChart">
+                <img src="/HomePage/rate" alt="completionRateChart" width="550px" height="400px">
+            </div>
+
+            <div id="assessmentOutcomes">
+                <h3>Course: Introduction to Programming </h3>
+                <h4>Assessment Method: Midterm Exam</h4>
+                <li>Average Score: 87%</li>
+                <li>Number of Students Scoring Above 90%: 25%</li>
+                <li>Number of Students Scoring Below 70%: 5%</li>
+                <li>Median Score: 88%</li>
+                <h4>Assessment Method: Programming Project</h4>
+                <li>Average Project Grade: B+</li>
+                <li>Number of Students Requiring Additional Assistance: 10%</li>
+                <li>Number of Students Demonstrating Exceptional Coding Skills: 15%</li>
+                <li>Common Areas of Strength: Algorithm Design, Code Efficiency</li>
+                <li>Common Areas for Improvement: Code Documentation, Debugging Skills</li>
+            </div>
+            <div class="img">
+                <img src="/HomePage/outcomes-assessment.png" alt="assessmentOutcomes" width="500px " height="500px">
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; 2023 Curriculum Analytics</p>
+    </footer>
+    <script src="analytics.js"></script>
+</body>
+
+</html>
