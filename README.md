@@ -1,17 +1,23 @@
-# CurriculumDesignPortal
+# Curriculum Design Portal
 
-Welcome to Curriculum Design Portal Repository,
-This is a repo specially created for SIH2023.
+## Welcome to the Curriculum Design Portal Repository
 
-Problem Statement: Unified portal for developing a model curriculum for all AICTE approved institutes. <br />
-PS ID: SIH1465 <br />
-Team Name: Error 405 Found1 <br />
-Team Members/Contributers: <br />
-                          Ruchita Saindane <br />
-                          Jayshree Bichave <br />
-                          Ashwini Patil <br />
-                          Ankita Warule <br />
-                          Pratik Bari <br />
-                          Vijay Patil <br />
+This repository has been created specifically for SIH2023.
 
-We have designed a portal for curriculum designers to make the proccess of curriculum design easier using various curriculum design tools.
+**Problem Statement:** Unified portal for developing a model curriculum for all AICTE approved institutes.  
+**PS ID:** SIH1465  
+**Team Name:** Error 405 Found1  
+
+### Team Members/Contributors:
+- Ruchita Saindane
+- Jayshree Bichave
+- Ashwini Patil
+- Ankita Warule
+- Pratik Bari
+- Vijay Patil
+
+## About the Project
+
+We have designed a portal to streamline the curriculum design process for educators. This portal incorporates various curriculum design tools to facilitate a more efficient and effective curriculum creation experience.
+
+Feel free to explore and contribute to our project!
