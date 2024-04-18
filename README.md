@@ -20,4 +20,9 @@ This repository has been created specifically for SIH2023.
 
 We have designed a portal to streamline the curriculum design process for educators. This portal incorporates various curriculum design tools to facilitate a more efficient and effective curriculum creation experience.
 
+
+Demo Video Link: 
+                  https://youtu.be/1ARXdeWRSQo
+
+
 Feel free to explore and contribute to our project!
