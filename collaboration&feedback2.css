@@ -1,0 +1,113 @@
+/* Updated styles for the chat UI */
+
+/* Updated styles for PDF messages */
+.pdf-thumbnail {
+    max-width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* Message content styles */
+.message-content {
+    display: flex;
+    align-items: center;
+}
+
+/* Adjust spacing for better alignment */
+.message.user1 .message-content {
+    justify-content: flex-end;
+}
+
+/* Styling for PDF message link */
+.message-content a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Adjust link hover color */
+.message-content a:hover {
+    text-decoration: underline;
+}
+
+
+/* Header styles */
+.chat-header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.chat-header h2 {
+    font-size: 24px;
+}
+
+/* Chat messages styles */
+.chat-messages {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    min-height: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: #f7f7f7;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message.user1 {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.message.user2 {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+/* Input styles */
+.chat-input {
+    display: flex;
+    margin-top: 20px;
+}
+
+#message-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+#send-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .chat-container {
+        max-width: 95%;
+    }
+
+    .chat-messages {
+        max-height: 250px;
+    }
+}

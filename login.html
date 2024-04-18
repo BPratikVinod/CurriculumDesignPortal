@@ -1,0 +1,115 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>AICTE-Login</title>
+</head>
+
+<header class="header">
+    <dir class="logo">
+        <img src="logo_2.png" width="60%" height="85%">
+    </dir>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+    </nav>
+
+</header>
+
+<body>
+    <div class="background"></div>
+
+    <div class="container">
+        <div class="content">
+            <h2 class="log"><i class="head"></i>AICTE</h2>
+            <div class="text">
+                <h2>Welcome<br> <span>Educators, Designers, and Administrators to Our Community!</span></h2>
+                <p>Join us on a journey of inspiration and innovation, where your expertise transforms education,
+                    designs a brighter future, and administers excellence. Together, we're shaping the path to success!
+                </p>
+            </div>
+        </div>
+        <div class="logreg-box">
+            <div class="form-box login">
+                <form action="#">
+                    <h2>Sign In</h2>
+                    <div class="input-box">
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="dropdown">
+                        <select>
+                            <option value="option1">Select your Role</option>
+                            <option value="option2">Administrator</option>
+                            <option value="option3">Educator</option>
+                            <option value="option4">Curriculum Designer</option>
+                        </select>
+                    </div>
+                    <br><br><br>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Remember me</label>
+                        <a href="#">Forgot password?</a>
+                    </div>
+
+                    <button type="submit" class="btn">Sign In</button>
+
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="signup.html" class="register-link">Sign Up</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <form action="#">
+                    <h2>Sign Up</h2>
+
+                    <div class="input-box">
+                        <input type="text" required>
+                        <label>Name</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <label for="dropdown">Select your Domain:</label>
+                    <select id="dropdown">
+                        <option value="option1">Administrator Login</option>
+                        <option value="option2">Educator Login</option>
+                        <option value="option3">Curriculum Designer Login</option>
+                    </select>
+
+                    <div class="input-box">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" required>
+                        <label>Confirm Password</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">I agree to the terms and conditions</label>
+                    </div>
+
+                    <button type="submit" class="btn">Sign Up</button>
+
+                    <div class="login-register">
+                        <p>Already have an account?<a href="#" class="login-link">Sign In</a></p>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="login_script.js"></script>
+</body>
+
+</html>
